@@ -3,7 +3,7 @@ import requests
 
 BASE_URL      = "https://demo.borealisdata.ca"
 PERSISTENT_ID = "doi:10.80240/FK2/KRFTCT"
-OUTPUT_DIR    = "fmap"
+OUTPUT_DIR    = "data"
 API_TOKEN     = ""
 
 headers = {"X-Dataverse-key": API_TOKEN} if API_TOKEN else {}
